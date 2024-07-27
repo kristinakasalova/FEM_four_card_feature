@@ -1,25 +1,3 @@
-/* 
-@font-face {
-    font-family: "Poppins";
-    font-weight: 400;
-    src: 
-    url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
-    font-style: normal;
-}
-@font-face {
-    font-family: "Poppins";
-    font-weight: 600;
-    src: 
-    url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
-    font-style: normal;
-}
-@font-face {
-    font-family: "Poppins";
-    font-weight: 200;
-    src: 
-    url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
-    font-style: normal;
-} */
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
 
@@ -91,7 +69,7 @@ p {
     box-shadow: 10px 10px 15px var(--clrGrBlue);
     max-width: 100vw;
     padding: 1.5rem;
-    height: 30vh;
+    height: auto;
     margin: 1rem;
     display: grid;
     justify-items: end;
@@ -138,32 +116,6 @@ align-self: flex-end;
     border-top: 0.3rem solid var(--clrBlue);
 }
 
-
-@media only screen and (min-width: 375px) {
- header {
-    max-width: 50vw;
- }
-main{
-    width: 65vw;
-    margin: auto;
-}
- .column {
-    flex-direction: column;
-    flex: 20%;
-    max-width: 30%;
-  }
-  .cards {
-    align-items: center;
-    justify-content: space-around;
-
-}
-    .card {
-        max-width: 23vw;
-        max-height: fit-content;
-        margin: auto;
-        margin-top: 1.5rem;
- }
-}
 
 @media only screen and (min-width: 375px) {
  header {
